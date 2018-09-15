@@ -1,0 +1,653 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.5;
+}
+
+body:not(.full-width) {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+}
+
+body ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 4px;
+  height: 4px;
+}
+
+body ::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body ::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 0px;
+  background: rgba(0, 0,0,.35);
+  -webkit-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+footer .ui.container .ui.left br {
+  display: none;
+}
+
+a {
+  color: #0366d6;
+  font-weight: 500;
+}
+
+.news a {
+  color: #000;
+  font-weight: 600;
+}
+
+.repo-author-repo-name a.repo-author {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0366d6;
+}
+
+.repo-author-repo-name a.repo-name {
+  font-size: 18px;
+  color: #0366d6;
+}
+
+.repo-author-repo-name div.divider {
+  margin: 0!important;
+  font-size: 18px!important;
+  line-height: 26px;
+  color: #586069!important;
+}
+
+.ui.right .poping.up i {
+  color: #000;
+}
+
+.feeds .list ul li.private {
+  background-color: unset;
+}
+
+.full.height {
+  background-color: #f6f8fa;
+}
+
+.ui.labeled.button .ui.basic.button {
+  padding: 6px 10px;
+}
+
+.ui.labeled.button .ui.basic.label {
+  padding: 5px 10px;
+}
+
+.user.profile .ui.card .extra.content ul li {
+  padding: 4px 10px;
+  font-size: 14px;
+  border: none;
+}
+
+.user.profile .ui.card .extra.content ul li:not(:last-child) {
+  border: none;
+}
+
+.ui.repository.list .item .ui.header {
+  padding-bottom: 4px;
+  font-size: 18px;
+}
+
+.ui.blue.button, .ui.blue.buttons .button {
+  background-color: #0366d6;
+}
+
+.ui.table td.name a {
+  font-weight: 400;
+}
+
+.user.profile .ui.card {
+  box-shadow: none;
+  background-color: unset;
+}
+
+.ui.menu {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+}
+
+.ui.tabable.menu .item, .ui.vertical.menu.navbar .item:not(.header) {
+  font-weight: 600;
+  color: #586069;
+}
+
+.ui.tabable.menu .item.active, .ui.vertical.menu.navbar .item.active:not(.header) {
+  color: #fff;
+  background-color: #0366d6;
+}
+
+.ui.tabable.menu .item:not(.active):hover, .ui.vertical.menu.navbar .item:not(.header):not(.active):hover {
+  background-color: #f6f8fa;
+}
+
+.ui.vertical.menu .header.item {
+ background-color: #f6f8fa;
+}
+
+.ui.fluid.basic.button.center {
+  color: #0366d6!important;
+  font-weight: 600;
+}
+
+.following.bar .right.menu .dropdown .menu {
+  padding: 4px 0px;
+  border: none;
+  min-width: 180px;
+}
+
+.dropdown .menu .ui.header {
+  margin-top: 6px;
+  margin-bottom: 2px;
+  padding: 0px 8px;
+  text-transform: unset;
+  font-weight: 400;
+  font-size: 12px!important;
+  color: #888;
+}
+
+.following.bar .right.menu .dropdown .menu .ui.header strong {
+  color: #000;
+  font-weight: 700;
+}
+
+.following.bar .right.menu .dropdown .menu .item {
+  border-radius: 0px;
+  width: 100%;
+  padding: 4px 10px 4px 15px!important;
+  line-height: 1.5;
+}
+
+.following.bar .right.menu .dropdown .menu .item:hover {
+  color: #fff!important;
+  background-color: #0366d6!important;
+}
+
+.following.bar.light {
+  color: rgba(255, 255, 255, 0.75);
+  background-color: #24292e;
+  height: 68px;
+}
+
+.ui.secondary.menu .active.item {
+  background-color: rgba(255,255,255,0.05);
+}
+
+.following.bar .top.menu a.item {
+  font-weight: 600;
+  color: #fff;
+}
+
+.following.bar .top.menu a.item:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.following.bar .text {
+  color: #fff;
+}
+
+.following.bar .text:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+body {
+  min-width: unset!important;
+  width: 100%;
+}
+
+.ui.top.secondary.menu {
+  width: calc(100% - 10px);
+}
+
+.ui.grid {
+  margin: -1rem 0;
+}
+
+.ui.grid>.column:not(.row) {
+  padding-left: 0;
+  padding-right: 0;
+}
+/*
+
+.ui.container:not(.fluid) {
+  width: unset!important;
+}
+*/
+.ui.secondary.menu {
+  margin: 0;
+}
+
+@media (max-width: 876px) {
+
+  /* COMPONENTS */
+
+  .ui.form .ui.segment label {
+    color: #586069 !important;
+    font-weight: 400;
+    text-align: left!important;
+    width: unset!important;
+  }
+  
+  .ui.form .ui.segment input {
+    width: 100%!important;
+  }
+
+  .ui.form .ui.segment .unset-on-mobile {
+    margin-left: unset!important;
+    padding-left: unset!important;
+    width: unset!important;
+  }
+
+  .ui.container .ui.grid .column.full-width-on-mobile {
+    width: 100%!important;
+    overflow-x: auto;
+  }
+
+  .ui.top.attached.header, .ui.attached.segment {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    max-width: 100%;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+  }
+
+  .ui.menu.horizontal-on-mobile {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    min-height: unset;
+  }
+
+  .ui.menu.horizontal-on-mobile a.item {
+    padding: 4px 8px;
+    font-weight: 400!important;
+    background-color: transparent!important;
+    color: #000!important;
+  }
+  
+  .ui.menu.horizontal-on-mobile a.item::before {
+    display: none;
+  }
+
+  .ui.menu.horizontal-on-mobile a.item .octicon {
+    display: none;
+  }
+
+  .ui.menu.horizontal-on-mobile a.item.active {
+    font-weight: 700!important;
+  }
+
+  .ui.menu.horizontal-on-mobile .item.header {
+    display: none;
+  }
+
+  /* PAGE HEADER / HEADING */
+
+  .ui.container:not(.fluid) {
+    width: unset!important;
+  }
+
+  .following.bar.light {
+    border: none;
+    box-shadow: none;
+  }
+
+  .repository {
+    padding-top: 0px;
+  }
+
+  .repository .header-wrapper {
+    background-color: unset;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .repository .header-wrapper .ui.container .column {
+    padding: 0px!important;
+  }
+
+  .repository .header-wrapper .column .ui.header {
+    width: 100%;
+    height: 52.5px;
+    line-height: 52.5px;
+    background-color: #24292e;
+  }
+
+  .repository .header-wrapper .column .ui.header .repo-author-repo-name {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    padding-left: 14px;
+  }
+
+  .repository .header-wrapper .column .ui.header .repo-author-repo-name .repo-author, .repository .header-wrapper .column .ui.header .repo-author-repo-name .repo-name {
+    color: #fff;
+  }
+
+  .repository .header-wrapper .column .ui.header .repo-author-repo-name .divider {
+    color: rgba(255,255,255,0.75)!important; 
+  }
+
+  .repository .header-wrapper .column .ui.header .repo-author-repo-name .fork-flag {
+    margin-left: 0;
+    font-size: 10px;
+    color: rgba(255,255,255,0.75);
+  }
+
+  .repository .header-wrapper .column .ui.header .repo-author-repo-name .fork-flag a {
+    color: #fff;
+  }
+
+  /* HEADING UI BUTTONS */
+
+  #repo-files-table {
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+  }
+
+  #repo-files-table thead {
+    display: none;
+  }
+  
+  .message.collapsing.has-emoji {
+    display: none;
+  }
+
+  .ui.container {
+    margin: 0!important;
+  }
+
+  .repository .ui.container #file-buttons {
+    display: none;
+  }
+
+  .repository .ui.container #clone-panel {
+    height: 28px;
+    width: unset;
+  }
+
+  .repository .ui.container #clone-panel .clone.button {
+    padding: 8px;
+  }
+
+  .repository .ui.container #repo-clone-url {
+    display: none;
+  }
+
+  .item.brand, .item[href="/pulls"], .item[href="/issues"] {
+    display: none!important;
+  }
+
+  /* REPOSITORY STYLING */
+
+  .repository .ui.container .ui.tabular.menu.navbar {
+    padding-right: 8px;
+    padding-left: 8px;
+    overflow-x: auto;
+  }
+
+  .repository .ui.container .ui.tabular.menu.navbar a.item i.octicon {
+    display: none;
+  }
+
+  .repository .ui.container .ui.tabular.menu.navbar a.item span.ui.gray.small.label {
+    border-radius: 8px;
+  }
+
+  .repository .ui.container .ui.tabular.menu.navbar a.item {
+    padding: 4px 8px;
+    border: 0;
+    margin: 0;
+  }
+
+  .repository .ui.container .ui.tabular.menu.navbar a.item.active {
+    background-color: #f7f9fb;
+  }
+
+  .repository .ui.tabs.divider {
+    border: 0;
+  }
+
+  .repository .ui.container p#repo-desc span.no-description {
+    display: none;
+  }
+
+  .repository .ui.container #git-stats {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .repository.file.list .ui.secondary.menu .fitted.item[class="fitted item"] {
+    display: none;
+  }
+
+  .repository.file.list #file-content h4#repo-read-file div.ui.buttons a.ui.button:first-child {
+    display: none;
+  }
+
+  .repository .ui.container .ui.top.attached.info.clearing.segment, .repository .ui.container .diff-file-box.diff-box.file-content h4.ui.top.attached {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  /* .repository.diff .ui.container .ui.attached.info.segment .ui.right .ui.horizontal.list div:first-child {
+    display: none;
+  } */
+
+  .repository.diff .ui.container .diff-detail-box.diff-box > div:first-child {
+    height: 68px;
+    margin-left: 8px;
+    margin-right: 5px;
+  }
+
+  .ui.unstackable.attached.table.segment table#commits-table td {
+    padding: 4px;
+  }
+
+  /* REPOSITORY SETTINGS */
+
+  .repository.settings .ui.container .ui.grid .column {
+    width: 100%!important;
+  }
+
+  .repository.settings .ui.container .ui.grid .column:not(.content) {
+    padding: 10px 0px;
+    overflow-x: auto;
+  }
+
+  /* LOGIN STYLING */
+
+  .user.signin .column {
+    padding: 20px!important;
+  }
+
+  .user.signin .ui.form h3.ui.top.attached.header {
+    background-color: white;
+    text-align: center;
+    border-bottom: none;
+    padding-left: 14px!important;
+    font-weight: 500;
+  }
+
+  .user.signin .ui.form .ui.segment {
+    padding: 28px;
+    border-radius: .28571429rem;
+  }
+
+  .user.signin .ui.form .ui.segment label {
+    color: #586069 !important;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .user.signin .ui.form .ui.segment label::after {
+    display: none;
+  }
+
+  .user.signin .ui.form .ui.segment input {
+    width: 100%!important;
+  }
+
+  .user.signin .ui.form .ui.segment div[class="inline field"] > label {
+    display: none;
+  }
+
+  /* DASHBOARD / EXPLORE */
+
+  .dashboard.feeds .ui.container .ui.floating.dropdown {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .dashboard.feeds .ui.container .ui.grid .dashboard-repo-list.column {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: calc(100% - 8px)!important; /* logically this should have been 16px, but css reasons and it only needs to accomodate one of the paddings... (css being consistent as always) */ 
+  }
+
+  .dashboard.feeds .ui.container .ui.grid .dashboard-repo-drawer.column {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100%!important;
+  }
+
+  .explore .ui.container .ui.grid .column {
+    width: 100%!important;
+  }
+
+  .explore .ui.container .ui.grid .column .ui.repository.list, .explore .ui.container .ui.grid .column .ui.user.list {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  /* USER SETTINGS / ADMIN SETTINGS */
+
+  .admin .ui.container .ui.grid .column.content.full-width-on-mobile .ui.unstackable.attached.table.segment {
+    overflow-x: auto;
+  }
+
+  /* .user:not(.icon) {
+    padding-bottom: 15px;
+  } */
+
+  /* FOOTER */
+
+  body > div.full.height {
+    margin: 0 0 -85px 0;
+  }
+
+  footer .ui.container .ui.left br {
+    display: unset;
+  }
+
+  footer {
+    height: 44px;
+  }
+
+  footer .ui.container {
+    height: 44px;
+    padding: 4px!important;
+  }
+
+  footer .ui.container .ui.left, footer .ui.container .ui.right {
+    font-size: 12px;
+    height: 36px;
+  }
+
+  footer .ui.container .ui.right {
+    line-height: 36px;
+    padding-right: 4px;
+  }
+
+  footer .ui.container .ui.right .version {
+    display: none;
+  }
+
+  /* USER PROFILE */
+
+  .user.profile .ui.container .ui.grid .column {
+    padding: 14px 16px 0px 16px;
+  }
+
+  .user.profile .ui.container .ui.grid .ui.card {
+    width: unset;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .user.profile .ui.container .ui.grid .image#profile-avatar {
+    width: calc(100% / 3);
+  }
+
+  .user.profile .ui.container .ui.grid .ui.card .content {
+    border: none!important;
+  }
+
+  .user.profile .ui.container .ui.grid .ui.card .extra.content {
+    padding-top: 14px;
+    width: 100%;
+  }
+
+  .user.profile .ui.container .ui.grid .ui.card .content .header.text, .user.profile .ui.container .ui.grid .ui.card .content .username.text {
+    text-align: left;
+  }
+
+  .user.profile .ui.container .ui.grid .ui.secondary.pointing.menu a.item {
+    width: 50%;
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .user.profile .ui.container .ui.grid .ui.secondary.pointing.menu a.item:not([href]) {
+    display: none;
+  }
+
+  .user.profile .ui.container .ui.grid .ui.repository.list .item {
+    padding-bottom: 10px;
+  }
+
+  .user.profile .ui.container .ui.grid .ui.repository.list .item .ui.header {
+    font-size: 16px;
+  }
+
+  .user.profile .ui.container .ui.grid .ui.repository.list .item p.time {
+    font-size: 10px;
+  }
+
+  .user.profile .ui.container .ui.grid .ui.repository.list .ui.header .ui.right.metas {
+    font-size: 14px;
+  }
+
+  .user.profile .ui.container .ui.grid .ui.repository.list .ui.header .ui.right.metas .octicon {
+    width: 12px;
+  }
+
+  /* CREATE REPOSITORY / CREATE ORGANIZATION / CREATE MIGRATION */
+
+  .repository.new.repo .column, .repository.new.fork .column, .repository.new.migrate .column, .organization.new.org .column {
+    padding-left: 8px!important;
+    padding-right: 8px!important;
+  }
+
+  .repository.new.repo .column .ui.form, .repository.new.fork .column .ui.form, .repository.new.migrate .column .ui.form, .organization.new.org .column .ui.form {
+    width: 100%!important;
+  }
+
+  .repository.new.repo .column .ui.form .ui.top.attached.header, .repository.new.fork .column .ui.form .ui.top.attached.header, .repository.new.migrate .column .ui.form .ui.top.attached.header, .organization.new.org .column .ui.form .ui.top.attached.header {
+    padding-left: unset!important;
+  }
+
+  .repository.new.repo .column .ui.form .help, .repository.new.fork .column .ui.form .help, .repository.new.migrate .column .ui.form .help, .organization.new.org .column .ui.form .help {
+    margin-left: unset!important;
+  }
+}

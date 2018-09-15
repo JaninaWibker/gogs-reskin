@@ -1,0 +1,29 @@
+<div class="four wide column full-width-on-mobile">
+	<div class="ui vertical menu horizontal-on-mobile">
+		<div class="header item">{{.i18n.Tr "admin_panel"}}</div>
+		<a class="{{if .PageIsAdminDashboard}}active{{end}} item" href="{{AppSubURL}}/admin#admin" id="admin">
+			{{.i18n.Tr "admin.dashboard"}}
+		</a>
+		<a class="{{if .PageIsAdminUsers}}active{{end}} item" href="{{AppSubURL}}/admin/users#users" id="users">
+			{{.i18n.Tr "admin.users"}}
+		</a>
+		<a class="{{if .PageIsAdminOrganizations}}active{{end}} item" href="{{AppSubURL}}/admin/orgs#orgs" id="orgs">
+			{{.i18n.Tr "admin.organizations"}}
+		</a>
+		<a class="{{if .PageIsAdminRepositories}}active{{end}} item" href="{{AppSubURL}}/admin/repos#repos" id="repos">
+			{{.i18n.Tr "admin.repositories"}}
+		</a>
+		<a class="{{if .PageIsAdminAuthentications}}active{{end}} item" href="{{AppSubURL}}/admin/auths#auths" id="auth">
+			{{.i18n.Tr "admin.authentication"}}
+		</a>
+		<a class="{{if .PageIsAdminConfig}}active{{end}} item" href="{{AppSubURL}}/admin/config#config" id="config">
+			{{.i18n.Tr "admin.config"}}
+		</a>
+		<a class="{{if .PageIsAdminNotices}}active{{end}} item" href="{{AppSubURL}}/admin/notices#notices" id="notices">
+			{{.i18n.Tr "admin.notices"}}
+		</a>
+		<a class="{{if .PageIsAdminMonitor}}active{{end}} item" href="{{AppSubURL}}/admin/monitor#monitor" id="monitor">
+			{{.i18n.Tr "admin.monitor"}}
+		</a>
+	</div>
+</div>
