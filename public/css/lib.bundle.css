@@ -1,0 +1,108 @@
+/* fontAwesome .sr-only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0
+}
+
+.sr-only-focusable:active,.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto
+}
+
+/* semantic-UI Forms */
+.ui.form{position: relative;max-width:100%;}
+.ui.form>p{margin:1em 0;}
+.ui.form .field{clear:both;margin: 0 0 1em;}
+.ui.form .field:last-child,.ui.form .fields:last-child .field{margin-bottom:0;}
+.ui.form .fields .field{clear:both;margin:0;}
+
+.ui.form .field>label {
+  display: block;
+  margin: 0 0 4px 0;
+  color: #24292e;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ui.form input:not([type]) {
+  min-height: 34px;
+  padding: 6px 8px;
+  line-height: 20px;
+  color: #24292e;
+  border: 1px solid #d1d5da!important;
+  border-radius: 3px!important;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(27, 31, 35, 0.075);
+  width: 100%;
+  overflow: visible;
+}
+  
+.ui.form input:not([type]):focus {
+  border-color: #2188ff!important;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(27, 31, 35, 0.075), 0 0 0 0.2em rgba(3, 102, 214, 0.3);
+}
+  
+.ui.form input {
+  margin: 0px;
+  font-size: 1em;
+  transition: color 0.1s ease, border-color 0.1s ease;
+}
+
+/* semantic-UI Buttons */
+
+.ui.button {
+  display: inline-block;
+  font-size: 14px;
+  padding: 6px 12px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid rgba(27, 31, 25, 0.2);
+  border-radius: 0.25em;
+}
+
+.ui.tiny.button, .ui.tiny.buttons .button {
+  padding: 3px 10px;
+}
+
+.ui.buttons .button:first-child {
+  border-left: 1px solid rgba(27, 31, 25, 0.2);
+}
+
+.ui.basic.button, .ui.basic.buttons .button, .ui.button, .ui.buttons .button {
+  color: #24292e;
+  background-color: #eff3f6;
+  background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+}
+
+.ui.green.button, .ui.green.buttons .button {
+  color: #fff;
+  background-color: #28a745;
+  background-image: linear-gradient(-180deg, #34d058, #28a745 90%)
+}
+
+.ui.red.button, .ui.red.buttons .button {
+  color: #fff;
+  background-color: #cb2431;
+  background-image: linear-gradient(-180deg, #de4450, #cb2431 90%)
+}
+
+.ui.blue.button, .ui.blue.buttons .button {
+  color: #fff;
+  background-color: #0366d6;
+  background-image: linear-gradient(-180deg, #2185d0, #0366d6 90%)
+}

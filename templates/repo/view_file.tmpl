@@ -3,17 +3,17 @@
 		{{if .ReadmeExist}}
 			<i class="octicon octicon-book"></i>
 			{{if .ReadmeInList}}
-				<span>{{.FileName}}</span>
+				<span class="file-name">{{.FileName}}</span>
 			{{else}}
-				<span>{{.FileName}}</span> <span class="text grey normal">{{FileSize .FileSize}}</span>
+				<span class="file-name">{{.FileName}}</span> <span class="text grey normal file-size">{{FileSize .FileSize}}</span>
 			{{end}}
 		{{else}}
 			<i class="octicon octicon-file-text ui left"></i>
-			<span>{{.FileName}}</span> <span class="text grey normal">{{FileSize .FileSize}}</span>
+			<span class="file-name">{{.FileName}}</span> <span class="text grey normal file-size">{{FileSize .FileSize}}</span>
 		{{end}}
 		{{if not .ReadmeInList}}
 			<div class="ui right file-actions">
-				<div class="ui buttons">
+				<div class="ui tiny buttons">
 					{{if not .IsViewCommit}}
 						<a class="ui button" href="{{.RepoLink}}/src/{{.CommitID}}/{{EscapePound .TreePath}}">{{.i18n.Tr "repo.file_permalink"}}</a>
 					{{end}}

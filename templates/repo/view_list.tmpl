@@ -20,7 +20,7 @@
 	<tbody>
 		{{if .HasParentPath}}
 			<tr class="has-parent">
-				<td colspan="3"><i class="octicon octicon-mail-reply"></i><a href="{{EscapePound .BranchLink}}{{.ParentPath}}">..</a></td>
+				<td colspan="2"><i class="octicon octicon-mail-reply"></i><a href="{{EscapePound .BranchLink}}{{.ParentPath}}">..</a></td>
 			</tr>
 		{{end}}
 		{{range $item := .Files}}
