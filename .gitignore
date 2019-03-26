@@ -1,0 +1,7 @@
+gogs
+scripts/
+data/
+log/
+public/img/emoji/
+public/js/
+public/plugins/
